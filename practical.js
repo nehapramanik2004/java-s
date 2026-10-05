@@ -2,7 +2,7 @@
  student_name ="neha"
  student_age = 22
  student_coursefee = 12000
- ispaid = false
+ ispaid = true
 
  console.log(`I am ${student_name} and My age is ${student_age},My courseFee is ${student_coursefee} which is ${ispaid?"paid":"Not paid" }`)
 
@@ -35,7 +35,7 @@ const calculatebill =(price, quantity, discountPrecent= 0,taxPrecent= 18) =>{
 const result= calculatebill(100,5,5,25)
 console.log(result)
 
-// Question 4
+// Question 4 
 const students =['aniket','PRIYA','rohit','Neha'];
 const names = students.map(name =>{
     name = name.trim().toLowerCase();
@@ -63,3 +63,4 @@ const Student ={
 // const age= Student.age
 const {name,age:myage,Skills,Address}=Student
 console.log(name,myage)
+

@@ -56,3 +56,14 @@ for ( let n of nums){
     Total +=n;
 }
 console.log(Total);
+//Destructuring
+// const a =[1,10,20]
+// const [a1, a2] = a
+// console.log(a1, a2)
+const a=[1,20,10,30]
+const [a1,...a2] = a
+console.log(a)
+const c=[1,10,20,30]
+const[ ,b1,b2]= c
+console.log(b1,b2)
+

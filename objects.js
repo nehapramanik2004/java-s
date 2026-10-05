@@ -44,3 +44,7 @@ console.log(Students);
 console.log(Students); //7. Object.seal()
 console.log(Object.hasOwn(Students,"name")); // 8. Object.hasOwn
 
+// Destructuring
+const b = { name :"neha" , sem :"3rd"}
+const {name:myname , sem }=b
+console.log(myname,sem)
