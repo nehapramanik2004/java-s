@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+    font-family: Arial;
+    background-color: lightgrey;
+    margin: 0;
+}
+h1{
+    color: darkblue;
+}
+input{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: darkblue;
+    cursor: pointer;
+    color: white;
+}
+button:hover{
+    background-color: blue;
+}
+.game-box{
+    background-color: white;
+    padding: 30px;
+    width: 300px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+    max-width: 350px;
+}
+#result{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
